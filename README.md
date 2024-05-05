@@ -1,8 +1,7 @@
 # Markdown to HTML parser
-#### Video Demo:  TODO
 
 ## Overview
-Markdown to HTML is a command line program that allows for easy transformation of basic Markdown syntax into HTML tags. With its straightforward functionality, users can quickly convert text files from one format to another. The program requires the input file to be passed when initiated, and the output file, if not specified, will be generated automatically as `output.html`
+Markdown to HTML is a command line program that allows for easy transformation of basic Markdown syntax into HTML tags. The program requires the input file to be passed when initiated, and the output file, if not specified, will be generated automatically as `output.html`
 
 ## Supported Syntax
 - Headers: `#` for H1, `##` for H2, and so on
@@ -40,13 +39,3 @@ The file structure is simplified to only include the main program and unit tests
 - `parse_links(line: str)` Parse any link or image markup in the given string and return the modified with HTML tags
 - `convert_to_html(lines: list)` Convert the given list of lines to HTML format
 - `markdown_to_html(input_file_path: str)` Convert the markdown file at the given input file path to HTML format and return as string
-
-
-## MIT License
-Copyright (c) 2023 Vojislav Trujkić
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
